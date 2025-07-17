@@ -1,0 +1,8 @@
+general.import = [
+  #"~/.config/alacritty/theme.toml",
+  "~/.config/alacritty/themes/themes/solarized.toml",
+]
+
+[font]
+normal = { family = "FiraMono Nerd Font", style = "Regular" }
+size = 10

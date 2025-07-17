@@ -1,0 +1,6 @@
+[submodule "alacritty/themes"]
+	path = .config/alacritty/themes
+	url = ssh://git@github.com/alacritty/alacritty-theme.git
+[submodule ".config/alacritty/themes"]
+	path = .config/alacritty/themes
+	url = ssh://git@github.com/alacritty/alacritty-theme.git
