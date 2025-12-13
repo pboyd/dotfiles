@@ -17,7 +17,7 @@ vim.o.backspace = indent,eol,start
 
 vim.o.relativenumber = true
 
-vim.o.wildmode = "longest,noselect:full"
+vim.o.wildmode = "longest,list"
 --vim.o.wildoptions = "fuzzy"
 
 vim.o.switchbuf = "usetab,newtab" -- for quicklists mainly
