@@ -43,6 +43,8 @@ vim.cmd([[
   augroup vimrcEx
   au!
 
+  autocmd FocusGained * checktime
+
   " For all text files set 'textwidth' to 78 characters.
   autocmd FileType text setlocal textwidth=78
 
