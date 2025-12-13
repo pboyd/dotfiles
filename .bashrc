@@ -4,7 +4,15 @@ export HISTSIZE=10000
 export HISTFILESIZE=10000
 
 export EDITOR=vim
-PS1='\u \w$ '
+
+if command -v powerline-go >/dev/null; then
+    function _powerline_ps1() {
+        PS1="$(powerline-go -modules host,kube,git,cwd,root -theme gruvbox -error $? -jobs $(jobs -p | wc -l) -hostname-only-if-ssh -shorten-openshift-names -max-width=50)"
+    }
+    PROMPT_COMMAND="_powerline_ps1"
+else
+    PS1='\u \w$ '
+fi
 
 # Fixes GPG's ability to ask for a passphrase when called through Git. Don't
 # ask me why.
@@ -62,7 +70,6 @@ if [ -f "$HOME/google-cloud-sdk/completion.bash.inc" ]; then . "$HOME/google-clo
 [ $(which aws_completer 2>/dev/null) ] && complete -C aws_completer aws
 
 if [ $(which kubectl 2>/dev/null) ]; then
-    PS1='($(kubectl config current-context)) \u \w$ '
     source <(kubectl completion bash)
     alias k="kubectl"
     complete -o default -F __start_kubectl k
