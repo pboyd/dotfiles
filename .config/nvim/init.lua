@@ -22,6 +22,9 @@ vim.o.wildmode = "longest,list"
 
 vim.o.switchbuf = "usetab,newtab" -- for quicklists mainly
 
+-- Disable the mouse to fallback to the terminal's behavior
+vim.o.mouse = ''
+
 -- nmap <F2>b =a{``
 -- nmap <Leader>f gg=G``
 -- nmap [[ ]]%
