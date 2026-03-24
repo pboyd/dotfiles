@@ -1,11 +1,11 @@
 {
   "Rename": { "branch": "master", "commit": "b240f28d2ede65fa77cd99fe045efe79202f7a34" },
   "bufferline.nvim": { "branch": "main", "commit": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3" },
-  "gruvbox.nvim": { "branch": "main", "commit": "5e0a460d8e0f7f669c158dedd5f9ae2bcac31437" },
-  "lazy.nvim": { "branch": "main", "commit": "85c7ff3711b730b4030d03144f6db6375044ae82" },
+  "gruvbox.nvim": { "branch": "main", "commit": "334d5fd49fc8033f26408425366c66c6390c57bb" },
+  "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lualine.nvim": { "branch": "master", "commit": "47f91c416daef12db467145e16bed5bbfe00add8" },
-  "nvim-tree.lua": { "branch": "master", "commit": "eb33612bff2fb31f54946fb5dcadc89e905e81ec" },
-  "nvim-web-devicons": { "branch": "master", "commit": "8dcb311b0c92d460fac00eac706abd43d94d68af" },
+  "nvim-tree.lua": { "branch": "master", "commit": "3d385d3346e4883d60dc37cf642bd47bed78a46e" },
+  "nvim-web-devicons": { "branch": "master", "commit": "d7462543c9e366c0d196c7f67a945eaaf5d99414" },
   "scratch.vim": { "branch": "master", "commit": "90c2bc4bfe01151aa5c71d9cb243b05bc105ae01" },
-  "vim-go": { "branch": "master", "commit": "dc07b9082fecd47f8ebef5f2684758e570f66377" }
+  "vim-go": { "branch": "master", "commit": "005120403fce914b1592600aa38f09474c6ddee9" }
 }

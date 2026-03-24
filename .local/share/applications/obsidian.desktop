@@ -3,7 +3,7 @@ Name=Obsidian
 Comment=Markdown Notetaking App
 GenericName=Text Editor
 Type=Application
-Exec=obsidian %U
+Exec=obsidian --ozone-platform=wayland %U
 Icon=obsidian
 StartupWMClass=Obsidian
 MimeType=x-scheme-handler/obsidian;
