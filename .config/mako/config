@@ -9,3 +9,6 @@ border-size=2
 font=Liberation Sans 11
 anchor=top-right
 max-icon-size=32
+
+[mode=do-not-disturb]
+invisible=1
